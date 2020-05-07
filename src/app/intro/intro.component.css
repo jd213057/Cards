@@ -26,8 +26,31 @@
   }
 }
 
+@keyframes slideinImg {
+  from {
+    opacity: 0%;
+    margin-top: 0%;
+  }
+
+  2.5% {
+    opacity: 100%;
+  }
+
+5% {
+  opacity: 100%;
+  margin-top:30%;
+  animation-play-state: paused;
+}
+
+  to {
+    opacity: 100%;
+    margin-top:30%;
+    animation-play-state: paused;
+  }
+}
+
 html {
-  background-color: darkred;
+  background-color: black;
   background-size: cover;
   cursor: url("src\assets\Poker\poker.cur") 4 12, auto;
   width: 1366px;
@@ -75,7 +98,7 @@ font-size: 68px;
 font-family: "Poker Numbers";
 color: gold;
 animation-duration: 10s;
-animation-delay: 0s;
+animation-delay: 0.5s;
 animation-name: slidein;
 padding-left: 350px;
 }
@@ -86,7 +109,7 @@ padding-left: 350px;
   font-family: "Poker Numbers";
   color: gold;
   animation-duration: 10s;
-animation-delay: 0.4s;
+animation-delay: 0.9s;
 animation-name: slidein;
 
 }
@@ -97,7 +120,7 @@ animation-name: slidein;
   font-family: "Poker Numbers";
   color: gold;
   animation-duration: 10s;
-animation-delay: 0.8s;
+animation-delay: 1.3s;
 animation-name: slidein;
 
 }
@@ -108,7 +131,7 @@ animation-name: slidein;
   font-family: "Poker Numbers";
   color: gold;
   animation-duration: 10s;
-animation-delay: 1.2s;
+animation-delay: 1.7s;
 animation-name: slidein;
 
 }
@@ -119,7 +142,7 @@ animation-name: slidein;
   font-family: "Poker Numbers";
   color: gold;
   animation-duration: 10s;
-  animation-delay: 1.6s;
+  animation-delay: 2.1s;
   animation-name: slidein;
 }
 
@@ -129,7 +152,7 @@ animation-name: slidein;
   font-family: "Poker Numbers";
   color: gold;
   animation-duration: 10s;
-animation-delay: 2s;
+animation-delay: 2.5s;
 animation-name: slidein;
 
 }
@@ -140,7 +163,7 @@ animation-name: slidein;
   font-family: "Poker Numbers";
   color: gold;
   animation-duration: 10s;
-animation-delay: 2.4s;
+animation-delay: 2.9s;
 animation-name: slidein;
 
 }
@@ -152,7 +175,7 @@ animation-name: slidein;
   font-family: "Poker Numbers";
   color: gold;
   animation-duration: 10s;
-animation-delay: 2.8s;
+animation-delay: 3.2s;
 animation-name: slidein;
 
 }
@@ -163,7 +186,7 @@ animation-name: slidein;
   font-family: "Poker Numbers";
   color: gold;
   animation-duration: 10s;
-animation-delay: 3.2s;
+animation-delay: 3.7s;
 animation-name: slidein;
 }
 
@@ -174,6 +197,11 @@ animation-name: slidein;
   font-family: "Poker Numbers";
   color: gold;
   animation-duration: 10s;
-animation-delay: 4s;
-animation-name: slidein;
+animation-delay: 4.5s;
+animation-name: slideinImg;
+}
+
+img {
+  height: 90px;
+  width: 90px;
 }
