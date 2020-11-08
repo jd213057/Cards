@@ -48,7 +48,6 @@ getNavBarFocus() {
     const helpButton = document.getElementById('help');
     const configButton = document.getElementById('config');
     const debugButton = document.getElementById('debug');
-    const exitButton = document.getElementById('exit');
     startButton.addEventListener('mouseenter', ( event ) => {
     const e = event.target as HTMLElement;
     e.style.backgroundColor = 'lightslategray';
@@ -81,14 +80,6 @@ getNavBarFocus() {
       const e = event.target as HTMLElement;
       e.style.backgroundColor = '';
     }, false);
-    exitButton.addEventListener('mouseenter', ( event ) => {
-      const e = event.target as HTMLElement;
-      e.style.backgroundColor  = 'lightslategray';
-    }, false);
-    exitButton.addEventListener('mouseleave', (event) => {
-      const e = event.target as HTMLElement;
-      e.style.backgroundColor = '';
-    }, false);
   }
 
 startButton()  {
@@ -96,7 +87,7 @@ startButton()  {
     this.helpRequest = false;
     this.configRequest = false;
     this.debugRequest = false;
-    this.runningParty = true;
+    this.runningParty = !this.runningParty;
   }
 
 helpButton(): void {
@@ -104,7 +95,7 @@ helpButton(): void {
     this.runningParty = false;
     this.configRequest = false;
     this.debugRequest = false;
-    this.helpRequest = true;
+    this.helpRequest = !this.helpRequest;
   }
 
 configButton(): void {
@@ -112,7 +103,7 @@ configButton(): void {
     this.runningParty = false;
     this.helpRequest = false;
     this.debugRequest = false;
-    this.configRequest = true;
+    this.configRequest = !this.configRequest;
   }
 
 debugButton(): void {
@@ -120,7 +111,7 @@ debugButton(): void {
     this.runningParty = false;
     this.helpRequest = false;
     this.configRequest = false;
-    this.debugRequest = true;
+    this.debugRequest = !this.debugRequest;
   }
 
 displayParty(): void {
@@ -136,14 +127,6 @@ displayConfig(): void {
   }
 
 displayDebug(): void {
-    this.debugRequest = false;
-  }
-
-exitButton() {
-    this.clickSound.play();
-    this.runningParty = false;
-    this.helpRequest = false;
-    this.configRequest = false;
     this.debugRequest = false;
   }
 }

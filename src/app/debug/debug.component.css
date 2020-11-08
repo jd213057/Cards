@@ -16,71 +16,91 @@
   background-color: none;
 }
 
+
+html, body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: calc(100vh - 6em);
+}
+
 .game-panel {
-  text-align: center;
-  width: 1200px;
-  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex: 0 1 80%;
+  align-items: center;
   background-color: purple;
-  border-radius: 30px;
-  border-color: black;
-  border: solid;
-  border-width: 7px;
-  padding-top: 10px;
+  border-radius: 1em;
+  border: 0.25em solid black;
+  margin-top: 1em;
   cursor: url("src\assets\Poker\poker.cur") 4 12, auto;
 }
 
 .panel-title {
-  font-size: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 2em;
   font-family: "Poker";
   font-style: italic;
 }
 
 .label-panel {
-  margin-left: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   text-decoration: underline;
 }
 
+.button-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 1em 0em;
+  }
+
 .button-exitDebug {
-  display: inline-flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   color: black;
-  width: 220px;
-  height: 70px;;
-  margin-left: 20px;
-  border-radius: 15px;
-  border-color: black;
+  width: 12em;
+  height: 2.5em;
+  border-radius: 1em;
+  border: 0.1em solid black;
   font-style: italic;
-  font-size: 20px;
+  font-size: 1.5em;
   font-family: "Poker";
-  padding-left: 60px;
-  margin-top: 10px;
+  margin: 0em 0.5em;
 }
 
 .panel-text {
-  display: inline-block;
-  text-align: left;
-  width: 1000px;
-  height: 280px;
-  padding: 22px 10px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 0 1 80%;
+  height: calc(100vh - 10em);
   color: gold;
   font-family: "Poker Numbers";
-  font-size: 30px;
+  font-size: 2em;
   background-color: purple;
-  border-radius: 30px;
-  border-color: lightslategray;
-  border-width: 4px;
-  border: solid;
+  border-radius: 2em;
+  border: 0.1em solid lightslategray;
 }
 
 .input {
-  margin-top: 40px;
-  margin-left: 250px;
-  height: 40px;
-  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   font-family: "Poker Numbers";
-  font-size: 50px;
+  font-size: 1.5em;
   text-align: center;
-}
-
-.button-line {
-  display: inline-flex;
+  margin-top: 2em;
+  width: calc(100vw - 10em);
 }

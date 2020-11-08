@@ -16,21 +16,33 @@
   background-color: none;
 }
 
+html, body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: calc(100vh - 6em);
+}
+
 .game-panel {
-  text-align: center;
-  width: 1200px;
-  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex: 0 1 80%;
+  align-items: center;
   background-color: lightslategray;
-  border-radius: 30px;
-  border-color: black;
-  border: solid;
-  border-width: 7px;
-  padding-top: 10px;
+  border-radius: 1em;
+  border: 0.25em solid black;
+  margin-top: 1em;
   cursor: url("src\assets\Poker\poker.cur") 4 12, auto;
 }
 
 .panel-title {
-  font-size: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 2em;
   font-family: "Poker";
   font-style: italic;
 }
@@ -50,76 +62,61 @@ text-decoration: underline;
 }
 
 .box-1 {
-  width: 345px;
-  padding-left: 160px;
   border-color: black;
   border-right-style: dashed;
-  border-width: 5px;
+  border-width: 0.1em;
+  padding-right: 0.5em;
 }
 
 .box-2 {
-  padding-left: 140px;
-  padding-top: 15px;
-}
-
-.section-1 {
-
-}
-
-.section-2 {
-
-}
-
-.section-3 {
-display: inline-flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-color: black;
+  border-left-style: dashed;
+  border-width: 0.1em;
+  padding-left: 0.5em;
 }
 
 .choice {
-  padding-left: 10px;
-  padding-right: 20px;
+  margin: 0em 1em;
 }
 
 .button-exitConfig {
-  display: inline-flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   color: black;
-  width: 220px;
-  height: 70px;;
-  margin-left: 20px;
-  border-radius: 15px;
-  border-color: black;
+  width: 12em;
+  height: 2.5em;
+  margin-left: 1.5em;
+  border-radius: 1em;
+  border: 0.1em solid black;
   font-style: italic;
-  font-size: 20px;
+  font-size: 1.5em;
   font-family: "Poker";
-  padding-left: 60px;
-  margin-top: 10px;
 }
 
 .panel-text {
-  display: inline-flex;
-    text-align: left;
-    width: 1000px;
-    height: 295px;
-    padding: 0px 10px 0px 10px;
-    color: darkred;
-    font-family: "Poker Numbers";
-    font-size: 30px;
-    background-color: lightslategray;
-    border-radius: 30px;
-    border-color: black;
-    border-width: 4px;
-    border: solid;
-}
-
-.input {
-  margin-top: 40px;
-  margin-left: 250px;
-  height: 40px;
-  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex: 0 1 75%;
+  text-align: left;
+  padding: 0em 0.75em;
+  color: darkred;
   font-family: "Poker Numbers";
-  font-size: 50px;
-  text-align: center;
+  font-size: 2em;
+  background-color: lightslategray;
+  border-radius: 1.25em;
+  border: 0.1em solid black;
 }
 
 .button-line {
-  display: inline-flex;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin: 1em 0em;
 }
