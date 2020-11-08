@@ -62,7 +62,7 @@ export class DebugComponent implements OnInit {
         }, false);
     }
 
-    onSubmit(inputValue) {
+    onSubmit() {
       this.clickSound.play();
       if (this.checkoutForm.value.inputValue == this.code1) {
 this.gameService.setCode1(true);

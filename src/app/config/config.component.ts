@@ -62,7 +62,7 @@ export class ConfigComponent implements OnInit {
         }, false);
     }
 
-    onSubmit(data) {
+    onSubmit() {
       this.clickSound.play();
       this.gameService.setAudio(this.checkoutForm.get('audio').value);
       this.gameService.setThemeChoice(this.checkoutForm.get('themeChoice').value);
