@@ -1,81 +1,82 @@
 @font-face {
-  src: url("src\assets\fonts\POKERKINGSREGULAR-36K8.TTF");
-  font-family: "Poker";
- }
- @font-face {
-   src: url("src\assets\fonts\POKERINOCTOBERDEMO-DXM3.OTF");
-   font-family: "Poker Numbers";
- }
+	src: url('src\assets\fonts\POKERKINGSREGULAR-36K8.TTF');
+	font-family: 'Poker';
+}
+@font-face {
+	src: url('src\assets\fonts\POKERINOCTOBERDEMO-DXM3.OTF');
+	font-family: 'Poker Numbers';
+}
 
- .cursor-in {
-  cursor: url("src\assets\Poker\Hand-Right.cur") 4 12, auto;
-  background-color: lightslategray;
+.cursor-in {
+	cursor: url('src\assets\Poker\Hand-Right.cur') 4 12, auto;
+	background-color: lightslategray;
 }
 
 .no-focus {
-  background-color: none;
+	background-color: none;
 }
 
-html, body {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: calc(100vh - 6em);
+html,
+body {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: calc(100vh - 6em);
 }
 
 .game-panel {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  flex: 0 1 80%;
-  align-items: center;
-  background-color: gold;
-  border-radius: 1em;
-  border: 0.5em solid black;
-  margin-top: 1em;
-  cursor: url("src\assets\Poker\poker.cur") 4 12, auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	flex: 0 1 80%;
+	align-items: center;
+	background-color: gold;
+	border-radius: 1em;
+	border: 0.5em solid black;
+	margin-top: 1em;
+	cursor: url('src\assets\Poker\poker.cur') 4 12, auto;
 }
 
 .panel-title {
-  font-size: 1.5em;
-  font-family: "Poker";
-  font-style: italic;
+	font-size: 1.5em;
+	font-family: 'Poker';
+	font-style: italic;
 }
 
 .label-panel {
-  text-decoration: underline;
+	text-decoration: underline;
 }
 
 .button-exitHelp {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  color: darkred;
-  width: 10em;
-  height: 2.5em;
-  border-radius: 1em;
-  border-color: black;
-  font-style: italic;
-  font-size: 1.5em;
-  font-family: "Poker";
-  margin: 1em 0em;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	color: darkred;
+	width: 10em;
+	height: 2.5em;
+	border-radius: 1em;
+	border-color: black;
+	font-style: italic;
+	font-size: 1.5em;
+	font-family: 'Poker';
+	margin: 1em 0em;
 }
 
 .panel-text {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  width: 80%;
-  padding: 1em;
-  color: darkred;
-  font-family: "Poker Numbers";
-  font-size: 1.5em;
-  background-color: gold;
-  border-radius: 2em;
-  border-color: lightslategray;
-  border-width: 0.5em;
-  border: solid;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	width: 80%;
+	padding: 1em;
+	color: darkred;
+	font-family: 'Poker Numbers';
+	font-size: 1.5em;
+	background-color: gold;
+	border-radius: 2em;
+	border-color: lightslategray;
+	border-width: 0.5em;
+	border: solid;
 }

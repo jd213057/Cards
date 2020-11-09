@@ -1,0 +1,29 @@
+{
+	/*     File & Editor Settings */
+	"editor.fontFamily": "Cascadia Code",
+	"editor.fontLigatures": true,
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"workbench.editor.highlightModifiedTabs": true,
+	"files.autoSave": "afterDelay",
+	"files.autoSaveDelay": 1000,
+	"files.trimFinalNewlines": true,
+	"explorer.sortOrder": "type",
+	"editor.cursorStyle": "line-thin",
+	"editor.cursorBlinking": "expand",
+	// change line 16 to true if you want to enable type check
+	"javascript.implicitProjectConfig.checkJs": false,
+
+	/*     Git Settings */
+	"git.enableSmartCommit": true,
+	"git.autofetch": true,
+	"git.autofetchPeriod": 180,
+	"git.confirmForcePush": true,
+	"git.allowForcePush": true,
+	"git.autoStash": true,
+	"git.showPushSuccessNotification": true,
+	"git.useForcePushWithLease": true,
+	"git.alwaysSignOff": true,
+	"github.gitAuthentication": true
+}
