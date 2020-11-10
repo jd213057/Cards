@@ -62,11 +62,11 @@ export class GameService {
 	getBackgroundImg(): string {
 		switch (this.imgChoice) {
 			case 'casino':
-				return '/assets/Poker/pokerMenuPanel.jpg';
+				return './assets/Poker/pokerMenuPanel.jpg';
 			case 'saloon':
-				return '/assets/Poker/poker_en_ligne_2.jpg';
+				return './assets/Poker/poker_en_ligne_2.jpg';
 			case 'retro':
-				return '/assets/Poker/mariocasino.jpg';
+				return './assets/Poker/mariocasino.jpg';
 		}
 	}
 
