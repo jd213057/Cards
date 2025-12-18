@@ -2,9 +2,10 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { GameService } from '../game.service';
 
 @Component({
-  selector: 'app-party',
-  templateUrl: './party.component.html',
-  styleUrls: ['./party.component.css']
+    selector: 'app-party',
+    templateUrl: './party.component.html',
+    styleUrls: ['./party.component.css'],
+    standalone: false
 })
 export class PartyComponent implements OnInit {
   @Output() displayParty = new EventEmitter();
