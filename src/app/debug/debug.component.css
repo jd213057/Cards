@@ -1,14 +1,14 @@
 @font-face {
-  src: url("src\assets\fonts\POKERKINGSREGULAR-36K8.TTF");
+  src: url("/assets/fonts/POKERKINGSREGULAR-36K8.TTF");
   font-family: "Poker";
  }
  @font-face {
-   src: url("src\assets\fonts\POKERINOCTOBERDEMO-DXM3.OTF");
+  src: url("/assets/fonts/POKERINOCTOBERDEMO-DXM3.OTF");
    font-family: "Poker Numbers";
  }
 
  .cursor-in {
-  cursor: url("src\assets\Poker\Hand-Right.cur") 4 12, auto;
+  cursor: url("/assets/Poker/Hand-Right.cur") 4 12, auto;
   background-color: lightslategray;
 }
 
@@ -26,7 +26,7 @@
   border: solid;
   border-width: 7px;
   padding-top: 10px;
-  cursor: url("src\assets\Poker\poker.cur") 4 12, auto;
+  cursor: url("/assets/Poker/poker.cur") 4 12, auto;
 }
 
 .panel-title {

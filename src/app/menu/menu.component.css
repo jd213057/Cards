@@ -1,12 +1,12 @@
 @font-face {
-  src: url("src\assets\fonts\POKERKINGSREGULAR-36K8.TTF");
+  src: url("/assets/fonts/POKERKINGSREGULAR-36K8.TTF");
   font-family: "Poker";
  }
 
 html {
 background-size: cover;
 height: 641px;
-cursor: url("src\assets\Poker\poker.cur") 4 12, auto;
+cursor: url("/assets/Poker/poker.cur") 4 12, auto;
 }
 
 .nav-bar {
@@ -16,7 +16,7 @@ cursor: url("src\assets\Poker\poker.cur") 4 12, auto;
 }
 
 .cursor-in {
-  cursor: url("src\assets\Poker\Hand-Right.cur") 4 12, auto;
+  cursor: url("/assets/Poker/Hand-Right.cur") 4 12, auto;
   background-color: gold;
 }
 
@@ -35,42 +35,42 @@ cursor: url("src\assets\Poker\poker.cur") 4 12, auto;
   font-style: oblique;
   font-size: 20px;
   font-family: "Poker";
-  cursor: url("src\assets\Poker\Hand-Right.cur") 4 12, auto;
+  cursor: url("/assets/Poker/Hand-Right.cur") 4 12, auto;
 }
 
 .start-icon {
   width: 32px;
   height: 32px;
   margin-left: 10px;
-  background-image: url("src\assets\Poker\leisure-chip-poker-gamble-casino_108530.png");
+  background-image: url("/assets/Poker/leisure-chip-poker-gamble-casino_108530.png");
 }
 
 .config-icon {
   width: 32px;
   height: 32px;
   margin-left: 10px;
-  background-image: url("src\assets\Poker\settings_icon_128522.png");
+  background-image: url("/assets/Poker/settings_icon_128522.png");
 }
 
 .help-icon {
   width: 32px;
   height: 32px;
   margin-left: 10px;
-  background-image: url("src\assets\Poker\iconfinder_info-alt_383122.png");
+  background-image: url("/assets/Poker/iconfinder_info-alt_383122.png");
 }
 
 .debug-icon {
   width: 32px;
   height: 32px;
   margin-left: 10px;
-  background-image: url("src\assets\Poker\debugMode_icon_128500.png");
+  background-image: url("/assets/Poker/debugMode_icon_128500.png");
 }
 
 .exit-icon {
   width: 32px;
   height: 32px;
   margin-left: 10px;
-  background-image: url("src\assets\Poker\Windows_Turn_Off_22528.png");
+  background-image: url("/assets/Poker/Windows_Turn_Off_22528.png");
 }
 
 .button-text {
