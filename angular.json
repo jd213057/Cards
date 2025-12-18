@@ -61,18 +61,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "cards-game:build"
+            "buildTarget": "cards-game:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "cards-game:build:production"
+              "buildTarget": "cards-game:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "cards-game:build"
+            "buildTarget": "cards-game:build"
           }
         },
         "test": {
