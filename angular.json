@@ -107,7 +107,6 @@
       }
     }
   },
-  "defaultProject": "cards-game",
   "cli": {
     "analytics": false
   }
