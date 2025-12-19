@@ -1,14 +1,16 @@
 @font-face {
-  src: url("/assets/fonts/POKERKINGSREGULAR-36K8.TTF");
-  font-family: "Poker";
- }
- @font-face {
-  src: url("/assets/fonts/POKERINOCTOBERDEMO-DXM3.OTF");
-   font-family: "Poker Numbers";
- }
+  src: url('/assets/fonts/POKERKINGSREGULAR-36K8.TTF');
+  font-family: 'Poker';
+}
+@font-face {
+  src: url('/assets/fonts/POKERINOCTOBERDEMO-DXM3.OTF');
+  font-family: 'Poker Numbers';
+}
 
- .cursor-in {
-  cursor: url("/assets/Poker/Hand-Right.cur") 4 12, auto;
+.cursor-in {
+  cursor:
+    url('/assets/Poker/Hand-Right.cur') 4 12,
+    auto;
   background-color: gold;
 }
 
@@ -17,7 +19,7 @@
 }
 
 .loader {
- cursor: wait  !important;
+  cursor: wait !important;
 }
 
 .game-panel {
@@ -30,12 +32,14 @@
   border: solid;
   border-width: 7px;
   padding-top: 10px;
-  cursor: url("/assets/Poker/poker.cur") 4 12, auto;
+  cursor:
+    url('/assets/Poker/poker.cur') 4 12,
+    auto;
 }
 
 .panel-title {
   font-size: 35px;
-  font-family: "Poker";
+  font-family: 'Poker';
   font-style: italic;
 }
 
@@ -52,13 +56,13 @@ img {
   display: inline-flex;
   color: darkred;
   width: 220px;
-  height: 70px;;
+  height: 70px;
   margin-left: 20px;
   border-radius: 15px;
   border-color: black;
   font-style: italic;
   font-size: 20px;
-  font-family: "Poker";
+  font-family: 'Poker';
   padding-left: 54px;
   margin-top: 10px;
 }
@@ -67,13 +71,13 @@ img {
   display: inline-flex;
   color: darkred;
   width: 220px;
-  height: 70px;;
+  height: 70px;
   margin-left: 20px;
   border-radius: 15px;
   border-color: black;
   font-style: italic;
   font-size: 20px;
-  font-family: "Poker";
+  font-family: 'Poker';
   padding-left: 35px;
   margin-top: 10px;
 }
@@ -89,7 +93,7 @@ img {
   height: 288px;
   width: 210px;
   color: gold;
-  font-family: "Poker Numbers";
+  font-family: 'Poker Numbers';
   font-size: 68px;
   padding-top: 110px;
 }
@@ -103,7 +107,7 @@ img {
   border: solid;
   color: gold;
   font-size: 35px;
-  font-family: "Poker";
+  font-family: 'Poker';
   margin-right: 20px;
   margin-left: 20px;
   margin-top: 5px;
@@ -122,7 +126,7 @@ img {
   position: relative;
   top: 100px;
   right: 33%;
-  font-family: "Poker Numbers";
+  font-family: 'Poker Numbers';
   font-size: 68px;
 }
 
@@ -130,13 +134,13 @@ img {
   position: relative;
   top: 100px;
   right: 20%;
-  font-family: "Poker Numbers";
+  font-family: 'Poker Numbers';
   font-size: 68px;
 }
 
 .result-title {
   position: relative;
-  font-family: "Poker Numbers";
+  font-family: 'Poker Numbers';
   font-size: 35px;
 }
 

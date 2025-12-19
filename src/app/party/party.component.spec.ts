@@ -1,6 +1,6 @@
-import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
+import {ComponentFixture, TestBed, waitForAsync} from '@angular/core/testing';
 
-import { PartyComponent } from './party.component';
+import {PartyComponent} from './party.component';
 
 describe('PartyComponent', () => {
   let component: PartyComponent;
@@ -8,9 +8,8 @@ describe('PartyComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ PartyComponent ]
-    })
-    .compileComponents();
+      declarations: [PartyComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {

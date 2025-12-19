@@ -1,9 +1,9 @@
 @font-face {
-  src: url("/assets/fonts/POKERINOCTOBERDEMO-DXM3.OTF");
-   font-family: "Poker Numbers";
- }
+  src: url('/assets/fonts/POKERINOCTOBERDEMO-DXM3.OTF');
+  font-family: 'Poker Numbers';
+}
 
- @keyframes slidein {
+@keyframes slidein {
   from {
     opacity: 0%;
     margin-top: 0%;
@@ -13,15 +13,15 @@
     opacity: 100%;
   }
 
-10% {
-  opacity: 100%;
-  margin-top:30%;
-  animation-play-state: paused;
-}
+  10% {
+    opacity: 100%;
+    margin-top: 30%;
+    animation-play-state: paused;
+  }
 
   to {
     opacity: 100%;
-    margin-top:30%;
+    margin-top: 30%;
     animation-play-state: paused;
   }
 }
@@ -36,15 +36,15 @@
     opacity: 100%;
   }
 
-5% {
-  opacity: 100%;
-  margin-top:30%;
-  animation-play-state: paused;
-}
+  5% {
+    opacity: 100%;
+    margin-top: 30%;
+    animation-play-state: paused;
+  }
 
   to {
     opacity: 100%;
-    margin-top:30%;
+    margin-top: 30%;
     animation-play-state: paused;
   }
 }
@@ -52,11 +52,13 @@
 html {
   background-color: black;
   background-size: cover;
-  cursor: url("/assets/Poker/poker.cur") 4 12, auto;
+  cursor:
+    url('/assets/Poker/poker.cur') 4 12,
+    auto;
   width: 1366px;
   height: 641px;
   font-size: 68px;
-  font-family: "Poker Numbers";
+  font-family: 'Poker Numbers';
   color: gold;
   cursor: wait;
 }
@@ -65,7 +67,7 @@ body {
   width: 1366px !important;
   height: 641px !important;
   font-size: 68px;
-  font-family: "Poker Numbers";
+  font-family: 'Poker Numbers';
   color: gold;
 }
 
@@ -74,7 +76,7 @@ body {
   width: 1366px;
   height: 641px;
   font-size: 68px;
-  font-family: "Poker Numbers";
+  font-family: 'Poker Numbers';
   color: gold;
   position: relative;
 }
@@ -82,64 +84,60 @@ body {
 .intro-text {
   display: inline-flex;
   font-size: 68px;
-  font-family: "Poker Numbers";
+  font-family: 'Poker Numbers';
   color: gold;
   top: 260px;
   left: 350px;
 }
 
 .img-intro {
-
 }
 
 .word-1 {
   opacity: 0%;
-font-size: 68px;
-font-family: "Poker Numbers";
-color: gold;
-animation-duration: 10s;
-animation-delay: 0.5s;
-animation-name: slidein;
-padding-left: 350px;
+  font-size: 68px;
+  font-family: 'Poker Numbers';
+  color: gold;
+  animation-duration: 10s;
+  animation-delay: 0.5s;
+  animation-name: slidein;
+  padding-left: 350px;
 }
 
 .word-2 {
   opacity: 0%;
   font-size: 68px;
-  font-family: "Poker Numbers";
+  font-family: 'Poker Numbers';
   color: gold;
   animation-duration: 10s;
-animation-delay: 0.9s;
-animation-name: slidein;
-
+  animation-delay: 0.9s;
+  animation-name: slidein;
 }
 
-.word-3{
+.word-3 {
   opacity: 0%;
   font-size: 68px;
-  font-family: "Poker Numbers";
+  font-family: 'Poker Numbers';
   color: gold;
   animation-duration: 10s;
-animation-delay: 1.3s;
-animation-name: slidein;
-
+  animation-delay: 1.3s;
+  animation-name: slidein;
 }
 
 .word-4 {
   opacity: 0%;
   font-size: 68px;
-  font-family: "Poker Numbers";
+  font-family: 'Poker Numbers';
   color: gold;
   animation-duration: 10s;
-animation-delay: 1.7s;
-animation-name: slidein;
-
+  animation-delay: 1.7s;
+  animation-name: slidein;
 }
 
 .word-5 {
   opacity: 0%;
   font-size: 68px;
-  font-family: "Poker Numbers";
+  font-family: 'Poker Numbers';
   color: gold;
   animation-duration: 10s;
   animation-delay: 2.1s;
@@ -149,56 +147,53 @@ animation-name: slidein;
 .word-6 {
   opacity: 0%;
   font-size: 68px;
-  font-family: "Poker Numbers";
+  font-family: 'Poker Numbers';
   color: gold;
   animation-duration: 10s;
-animation-delay: 2.5s;
-animation-name: slidein;
-
+  animation-delay: 2.5s;
+  animation-name: slidein;
 }
 
 .word-7 {
   opacity: 0%;
   font-size: 68px;
-  font-family: "Poker Numbers";
+  font-family: 'Poker Numbers';
   color: gold;
   animation-duration: 10s;
-animation-delay: 2.9s;
-animation-name: slidein;
-
+  animation-delay: 2.9s;
+  animation-name: slidein;
 }
 
 .word-8 {
   opacity: 0%;
   padding-left: 50px;
   font-size: 68px;
-  font-family: "Poker Numbers";
+  font-family: 'Poker Numbers';
   color: gold;
   animation-duration: 10s;
-animation-delay: 3.2s;
-animation-name: slidein;
-
+  animation-delay: 3.2s;
+  animation-name: slidein;
 }
 
 .word-9 {
   opacity: 0%;
   font-size: 68px;
-  font-family: "Poker Numbers";
+  font-family: 'Poker Numbers';
   color: gold;
   animation-duration: 10s;
-animation-delay: 3.7s;
-animation-name: slidein;
+  animation-delay: 3.7s;
+  animation-name: slidein;
 }
 
 .word-10 {
   opacity: 0%;
   padding-left: 50px;
   font-size: 68px;
-  font-family: "Poker Numbers";
+  font-family: 'Poker Numbers';
   color: gold;
   animation-duration: 10s;
-animation-delay: 4.5s;
-animation-name: slideinImg;
+  animation-delay: 4.5s;
+  animation-name: slideinImg;
 }
 
 img {

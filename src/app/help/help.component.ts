@@ -1,20 +1,19 @@
-import { Component, OnInit, Input, Output , EventEmitter} from '@angular/core';
+import {Component, OnInit, Input, Output, EventEmitter} from '@angular/core';
 
 @Component({
-    selector: 'app-help',
-    templateUrl: './help.component.html',
-    styleUrls: ['./help.component.css'],
-    standalone: false
+  selector: 'app-help',
+  templateUrl: './help.component.html',
+  styleUrls: ['./help.component.css'],
+  standalone: false,
 })
 export class HelpComponent implements OnInit {
-@Output() displayHelp = new EventEmitter();
-cursorClass = 'no-focus';
-clickSound = new Audio('.\\assets\\sounds\\Button_Press_4-Marianne_Gagnon-570460555.mp3');
+  @Output() displayHelp = new EventEmitter();
+  cursorClass = 'no-focus';
+  clickSound = new Audio('.\\assets\\sounds\\Button_Press_4-Marianne_Gagnon-570460555.mp3');
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
   cursorIn() {
     this.cursorClass = 'cursor-in';
@@ -28,5 +27,4 @@ clickSound = new Audio('.\\assets\\sounds\\Button_Press_4-Marianne_Gagnon-570460
     this.clickSound.play();
     this.displayHelp.emit();
   }
-
 }
